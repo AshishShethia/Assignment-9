@@ -1,0 +1,32 @@
+.card_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  padding: 2rem;
+  background-color: #e9eaf0;
+  /* background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%); */
+  box-shadow: 0 0 5px 0 rgba(241, 60, 60, 0.1);
+  border-radius: 1rem;
+}
+.card_header {
+  color: rgb(17, 16, 16);
+  font-size: 2rem;
+}
+.card_content {
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(15, 14, 14);
+  width: 400px;
+}
+.card_button {
+  background-color: #18da5f;
+  color: rgb(3, 3, 3);
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border: none;
+  text-decoration: none;
+  width: 100%;
+}
